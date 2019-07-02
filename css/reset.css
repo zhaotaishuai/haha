@@ -1,0 +1,175 @@
+    blockquote,
+    body,
+    button,
+    dd,
+    dl,
+    dt,
+    fieldset,
+    form,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    hr,
+    input,
+    legend,
+    li,
+    ol,
+    p,
+    pre,
+    td,
+    textarea,
+    th,
+    ul {
+        margin: 0;
+        padding: 0
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-size: 100%
+    }
+    
+    address,
+    cite,
+    dfn,
+    em,
+    var {
+        font-style: normal
+    }
+    
+    code,
+    kbd,
+    pre,
+    samp {
+        font-family: courier new, courier, monospace
+    }
+    
+    small {
+        font-size: 12px
+    }
+    
+    ol,
+    ul {
+        list-style: none
+    }
+    
+    a {
+        text-decoration: none
+    }
+    
+    a:hover {
+        text-decoration: underline
+    }
+    
+    sup {
+        vertical-align: text-top
+    }
+    
+    sub {
+        vertical-align: text-bottom
+    }
+    
+    legend {
+        color: #000
+    }
+    
+    fieldset,
+    img {
+        border: 0
+    }
+    
+    button,
+    input,
+    select,
+    textarea {
+        font-size: 100%
+    }
+    
+    button {
+        border-radius: 0
+    }
+    
+    table {
+        border-collapse: collapse;
+        border-spacing: 0
+    }
+    
+    .site-nav .site-nav-icon {
+        font-family: global-iconfont;
+        font-size: 12px;
+        font-style: normal;
+        margin-top: -3px\9;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscaleFont type;
+        margin-right: 5px;
+        _line-height: 33px;
+        color: #9c9c9c
+    }
+    
+    .site-nav .site-nav-menu-hd a:hover .site-nav-icon {
+        color: #f40
+    }
+    
+    .site-nav .site-nav-bd-r .site-nav-icon {
+        width: 12px
+    }
+    
+    .site-nav .site-nav-icon-highlight {
+        color: #f40
+    }
+    
+    .site-nav .site-nav-arrow {
+        display: block;
+        float: left;
+        width: 12px;
+        height: 6px;
+        line-height: 6px;
+        overflow: hidden;
+        margin-top: 16px
+    }
+    
+    .site-nav .site-nav-arrow .site-nav-icon {
+        display: block;
+        margin-top: -4px;
+        margin-right: 20px
+    }
+    
+    .site-nav {
+        z-index: 10000;
+        width: 100%;
+        background-color: #f5f5f5;
+        border-bottom: 1px solid #eee;
+        *zoom: 1
+    }
+    
+    .site-nav:after {
+        content: "";
+        display: table;
+        clear: both
+    }
+    
+    .site-nav textarea {
+        display: none
+    }
+    
+    .site-nav .site-nav-bd {
+        margin: 0 auto;
+        width: 1190px;
+        height: 35px;
+        background: #f5f5f5;
+        -webkit-backface-visibility: hidden;
+        *zoom: 1
+    }
+    
+    .site-nav .site-nav-bd:after {
+        content: "";
+        display: table;
+        clear: both
+    }
